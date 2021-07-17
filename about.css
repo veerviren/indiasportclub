@@ -14,10 +14,10 @@ body{
 }
 .img
 {
-  height: 100px;
-  width:  100px;
+  height: 80px;
+  width:  80px;
   background: black;
-   background: url("IMG_20200925_141106.jpg")no-repeat;
+   background: url("profile.png")no-repeat;
    background-size: cover;
    background-position: center;
    border-radius: 50%;
