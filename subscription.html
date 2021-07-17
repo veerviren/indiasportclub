@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> INDIAN SPORT'S CLUB</title>
+    <link rel="icon" href="images/indian2.png" type="image/png">
+    <link rel="stylesheet" href="css/subscription.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="images/indian.png" alt="logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="subscription.html">Subscription</a></li>
+                <li><a href="contact_us.html">Contact</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+            <button onclick="myFunction()">Toggle dark mode</button>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="card" id="subscribe">
+            <h1>SUBSCRIBE US</h1>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>3 MONTHS PLAN</h2>
+                <h3>&#8377; 2,000 <DEL>&#8377;3,000</DEL></h3>
+                <div class="buy"><a href="forms.html" target="_blank">BUY NOW</a></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>6 MONTHS PLAN</h2>
+                <h3>&#8377; 4,000 <DEL>&#8377;6,000</DEL></h3>
+                <div class="buy"><a href="forms.html" target="_blank">BUY NOW</a></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>1 YEAR PLAN</h2>
+                <h3>&#8377; 8,000 <DEL>&#8377;12,000</DEL></h3>
+                <div class="buy"><a href="forms.html" target="_blank">BUY NOW</a></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+
+</html>

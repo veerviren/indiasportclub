@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style1234.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<body>
+    <form>
+        <header>
+            <h1 style="color: seashell;font-style: italic; font-size:50px;">PAYMENT FORM</h1>
+        </header>
+        <section>
+            <nav style="position: sticky;top: 0px;">
+                <a href="home.html" style="margin: 10px;">Home</a>
+                <a href="about.html">About us</a>
+            </nav>
+            <h5 style="color: red; text-align: left;"> Required fields are followed by *</h5>
+            <div>
+                <h2 style="text-align: center;">Contact Information</h2>
+                <hr>
+                <p> Name:*<input type="text" id="name" required placeholder="Your name"> </p>
+                <fieldset>
+                    <legend>Gender:*</legend>
+                    <p>Male <input id="male" type="radio" name="gender" required>Female
+                        <input type="radio" id="female" name="gender" required>
+                        Others <input type="radio" id="others" name="gender" required>
+                    </p>
+                </fieldset>
+                <p> Mobile No:*<input type="number" required placeholder="9065538669"> </p>
+                <p> Email id:*<input type="email" required placeholder="xyz@gmail.com"> </p>
+                <p>Address:<textarea name="address" id="address" cols="30" rows="2"></textarea></p>
+                <p>Pincode:*<input type="number" maxlength="6" required placeholder="123456"></p>
+            </div>
+        </section>
+        <div>
+            <p>
+            <h2 style="text-align: center;"> Payment Information </h2>
+            <hr>
+            </p>
+            <p>Cards accepted:
+                <img src="images/mastercard.png" alt="mastercard" width="5%">
+                <img src="images/rupay.jpg" alt="Rupay" width="5%">
+                <img src="images/visa.png" alt="Visa" width="5%">
+            </p>
+            <p>Card type:*
+                <select name="card_type" id="card_type" required>
+                    <option value="">---Select a card Type---</option>
+                    <option value="Mastercard">Mastercard</option>
+                    <option value="Rupay">Rupay</option>
+                    <option value="Visa">Visa</option>
+                </select>
+            </p>
+            <p>Card Number:*<input type="number" name="cardnmber" id="cardnmber" required
+                    placeholder="1111-2222-3333-4444"></p>
+            <p>Expiration Date:*<input type="date" name="exp_date" id="exp_date" required></p>
+            <p>CVV:*<input type="password" name="pass" id="pass" maxlength="3" required placeholder="345"></p>
+
+            <input type="submit" value="Pay Now">
+        </div>
+    </form>
+</body>
+
+</html>

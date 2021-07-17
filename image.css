@@ -1,0 +1,13 @@
+.img
+{
+    height: 70px;
+    width: 70px;
+    background: red;
+    background: url(profile.png)no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
